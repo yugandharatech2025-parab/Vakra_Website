@@ -109,7 +109,7 @@ function showKitchen(type) {
       </p>
     `;
 
-    img.src = "/images/straight_kitchen.jpg";
+    img.src = "images/straight_kitchen.jpg";
 
   }
 
@@ -125,7 +125,7 @@ function showKitchen(type) {
       </p>
     `;
 
-    img.src = "/images/parallel_kitchen.jpg";
+    img.src = "images/parallel_kitchen.jpg";
 
   }
 
@@ -141,7 +141,7 @@ function showKitchen(type) {
       </p>
     `;
 
-    img.src = "/images/l_shape_kitchen.jpg";
+    img.src = "images/l_shape_kitchen.jpg";
 
   }
 
@@ -157,7 +157,7 @@ function showKitchen(type) {
       </p>
     `;
 
-    img.src = "/images/c_shape_kitchen.jpg";
+    img.src = "images/c_shape_kitchen.jpg";
 
   }
 
@@ -173,7 +173,7 @@ function showKitchen(type) {
       </p>
     `;
 
-    img.src = "/images/island_kitchen.jpg";
+    img.src = "images/island_kitchen.jpg";
 
   }
 
@@ -201,7 +201,7 @@ function showWardrobe(type) {
       </p>
     `;
 
-    img.src = "/images/openable_wordrobe.jpg";
+    img.src = "images/openable_wordrobe.jpg";
 
   }
 
@@ -217,7 +217,7 @@ function showWardrobe(type) {
       </p>
     `;
 
-    img.src = "/images/sliding_wordrobe.jpg";
+    img.src = "images/sliding_wordrobe.jpg";
 
   }
 
@@ -233,7 +233,7 @@ function showWardrobe(type) {
       </p>
     `;
 
-    img.src = "/images/walk_in_wordrobe.jpg";
+    img.src = "images/walk_in_wordrobe.jpg";
 
   }
 
@@ -277,7 +277,7 @@ function showInterior(type) {
 
     box.style.display = "block";
 
-    img.src = "/images/false_ceiling.jpg";
+    img.src = "images/false_ceiling.jpg";
 
   }
 
