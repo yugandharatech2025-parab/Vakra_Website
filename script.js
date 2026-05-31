@@ -64,7 +64,7 @@ window.addEventListener("scroll", () => {
 
   } else {
 
-   navbar.style.background = "#F7F6FB";
+    navbar.style.background = "#F7F6FB";
     navbar.style.boxShadow = "none";
 
   }

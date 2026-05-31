@@ -824,15 +824,15 @@ p {
     padding: 14px;
   }
   .whatsapp-float {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     font-size: 28px;
     right: 15px;
     bottom: 15px;
   }
   .instagram-float {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     font-size: 28px;
     right: 15px;
     bottom: 85px;
