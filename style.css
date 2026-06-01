@@ -80,7 +80,7 @@ nav {
 .page1 {
   width: 100%;
   min-height: 100vh;
-  padding: 9vw 5vw 5vw 5vw;
+ padding: 12vw 5vw 5vw 5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -189,7 +189,7 @@ button:hover {
 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("about_background.jpg");
+    url("images/about_background.jpg");
 
   background-size: cover;
   background-position: center;
@@ -400,7 +400,7 @@ summary::-webkit-details-marker {
 
 .service-image img {
   width: 100%;
-  height: 350px;
+  height: 400px;
   object-fit: cover;
   border-radius: 16px;
 }
@@ -497,7 +497,7 @@ form textarea {
   font-weight: 700;
 }
 
-p {
+footer {
   text-align: center;
 }
 
