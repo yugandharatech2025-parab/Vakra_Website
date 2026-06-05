@@ -25,7 +25,10 @@
 
     <nav>
       <div class="vakra-logo">
-        <img src="images/vakra_logo-removebg-preview.png" alt="vakra interior logo" />
+        <img
+          src="images/vakra_logo-removebg-preview.png"
+          alt="vakra interior logo"
+        />
       </div>
       <div class="nav-part2">
         <ul>
@@ -93,7 +96,11 @@
       </div>
 
       <div class="col2">
-        <img src="images/livin_room.jpg" alt="living room img" />
+        <div class="slider">
+          <img src="images/livin_room.jpg" class="slide active" />
+          <img src="images/kitchen.jpg" class="slide" />
+          <img src="images/living_product.jpg" class="slide" />
+        </div>
       </div>
     </section>
 
@@ -341,7 +348,6 @@
           />
 
           <input type="hidden" name="_captcha" value="false" />
-          
 
           <button type="submit">Send Inquiry</button>
           <footer>
@@ -370,5 +376,10 @@
     </a>
 
     <script src="script.js"></script>
+
+    const slides = document.querySelectorAll(".slide"); let currentSlide = 0;
+    setInterval(() => { slides[currentSlide].classList.remove("active");
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add("active"); }, 3000);
   </body>
 </html>
